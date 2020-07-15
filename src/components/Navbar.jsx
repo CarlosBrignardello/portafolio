@@ -9,22 +9,22 @@ export const Navbar = () => {
         <h1 className="nav__logo">Carlos Brignardello </h1>
         <ul>
           <li>
-            <Link to="/">Inicio</Link>
+            <Link to="/portafolio/">Inicio</Link>
           </li>
           <li>
-            <Link to="/posts">Posts</Link>
+            <Link to="/portafolio/posts">Posts</Link>
           </li>
           <li>
-            <Link to="/works">Trabajos</Link>
+            <Link to="/portafolio/works">Trabajos</Link>
           </li>
           <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="/portafolio/skills">Skills</Link>
           </li>
           <li>
-          <Link to="/notes">Apuntes</Link>
+          <Link to="/portafolio/notes">Apuntes</Link>
           </li>
           <li>
-          <Link to="/contact">Contacto</Link>
+          <Link to="/portafolio/contact">Contacto</Link>
           </li>
         </ul>
       </nav>

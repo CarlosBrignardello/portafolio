@@ -23,15 +23,14 @@ export const AppRouter = () => {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/posts" component={ Posts } />
-          <Route exact path="/posts/git-subir-proyectos" component={ gitSubirProyecto } />
-          <Route exact path="/posts/react-router" component={ reactRouter } />
-          <Route exact path="/works" component={ Works } />
-          <Route exact path="/skills" component={ Skills } />
-          <Route exact path="/notes" component={ Notes } />
-          <Route exact path="/notes/html-css" component={ Notes } />
-          <Route exact path="/contact" component={ Contact } />
-          <Route path="/" component={ App } />
+          <Route exact path="/portafolio/posts" component={ Posts } />
+          <Route exact path="/portafolio/posts/git-subir-proyectos" component={ gitSubirProyecto } />
+          <Route exact path="/portafolio/posts/react-router" component={ reactRouter } />
+          <Route exact path="/portafolio/works" component={ Works } />
+          <Route exact path="/portafolio/skills" component={ Skills } />
+          <Route exact path="/portafolio/notes" component={ Notes } />
+          <Route exact path="/portafolio/contact" component={ Contact } />
+          <Route path="/portafolio/" component={ App } />
         </Switch>
         <Footer />
       </div>

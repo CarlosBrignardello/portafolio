@@ -16,7 +16,7 @@ export const Contact = () => {
         <div className="contact-container__image"></div>
 
         <div className="contact-container__buttons">
-          <img className="buttons__image" src={IconLinkedin} />
+          <img className="buttons__image" src="https://i.imgur.com/aMBpVw7.png" />
           <div className="btn">
             <a href="https://www.linkedin.com/in/carlos-alberto-brignardello-cerda-360a12170/">linkedin</a>
           </div>

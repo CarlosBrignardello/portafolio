@@ -28,7 +28,7 @@ function App() {
         <PostCard context={posts[0].contextData} title={posts[0].titleData} description={posts[0].descriptionData} date={posts[0].dateData} image={posts[0].image}/>
         <PostCard context={posts[1].contextData} title={posts[1].titleData} description={posts[1].descriptionData} date={posts[1].dateData} image={posts[1].image}/>
         <div className="btn">
-          <Link to="/posts">ir a publicaciones</Link>
+          <Link to="/portafolio/posts">ir a publicaciones</Link>
         </div>
       </section>
 
@@ -40,7 +40,7 @@ function App() {
           <ProjectCard title={works[1].title} techs={works[1].techs} image={works[1].img}/>
         </div>
         <div className="btn">
-          <Link to="/works">ir a trabajos</Link>
+          <Link to="/portafolio/works">ir a trabajos</Link>
         </div>
       </section>
 
@@ -49,7 +49,7 @@ function App() {
         <p>Si eres un reclutador y estas interesado en mi perfil puedes ver las skills relacionadas que poseo.</p>
         <div className="skills__image"></div>
         <div className="btn">
-          <Link to="/skills">ir a skills</Link>
+          <Link to="/portafolio/skills">ir a skills</Link>
         </div>
       </section>
 
@@ -61,7 +61,7 @@ function App() {
           <Card title={notes[1].title} type="Notes" description={notes[1].description} image={notes[1].img}/>
         </div>
         <div className="btn">
-          <Link to="/notes">ir a apuntes</Link>
+          <Link to="/portafolio/notes">ir a apuntes</Link>
         </div>
       </section>
     </>
