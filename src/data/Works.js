@@ -3,7 +3,7 @@ export const works = [
     title: 'Portafolio',
     techs: ['React', 'Sass'],
     url: 'https://carlosbrignardello.github.io/jquery-wsp/',
-    repo: 'https://github.com/CarlosBrignardello/jquery-wsp',
+    repo: 'https://github.com/CarlosBrignardello/portafolio',
     description: '',
     img: 'https://raw.githubusercontent.com/CarlosBrignardello/react-gif-api/master/src/images/screen.png'
   },

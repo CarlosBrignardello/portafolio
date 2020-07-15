@@ -1,9 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import '../styles/pages/Contact.sass'
-import IconCV from '../assets/icons/pdf.svg'
-import IconGitHub from '../assets/icons/github.svg'
-import IconLinkedin from '../assets/icons/linkedin.png'
 
 export const Contact = () => {
   return (
@@ -22,7 +18,7 @@ export const Contact = () => {
           </div>
         </div>
         <div className="contact-container__buttons">
-          <img className="buttons__image" src={IconGitHub} />
+          <img className="buttons__image" src="https://i.imgur.com/oaIkuv6.png"/>
           <div className="btn">
             <a href="https://github.com/CarlosBrignardello">GitHub</a>
           </div>
