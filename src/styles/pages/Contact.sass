@@ -17,6 +17,7 @@
       background-position: center
       background-size: 100%
       width: 50%
+      background-repeat: no-repeat
     &__buttons
       display: flex
       flex-direction: column
@@ -38,3 +39,26 @@
   .item
     grid-column: span 6
     justify-self: center
+@media screen and (max-width: 1440px)
+@media screen and (max-width: 1024px)
+  .contact
+    padding: 5% 10%
+@media screen and (max-width: 768px)
+@media screen and (max-width: 425px)
+  .contact
+    padding: 5% 2%
+    .contact-container
+      flex-direction: column
+      background-color: white
+      margin: 2rem 0
+      padding: 1rem
+      justify-content: space-between
+      box-shadow: $shadow
+      &__image
+        width: 100%
+      &__buttons
+        align-self: auto
+        margin: 0
+    .item
+      grid-column: span 13
+      justify-self: center

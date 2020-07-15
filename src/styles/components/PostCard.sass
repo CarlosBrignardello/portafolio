@@ -15,9 +15,29 @@
     width: 40%
     align-self: center
     max-height: 300px
+    overflow: hidden
     h3
       color: $lightColor
     p
       color: $lightColor
+      max-height: 100px
+      overflow: hidden
     span
       color: $DarkColor
+
+@media screen and (max-width: 425px)
+  .post-card
+    &__image
+      height: 150px
+      width: 40%
+    &__content
+      padding: 0 2rem
+      max-height: 150px
+      overflow: hidden
+      width: 60%
+      h3
+        font-size: 1rem
+      p
+        display: none
+      span
+        font-size: .7rem

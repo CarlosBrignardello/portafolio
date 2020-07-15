@@ -114,3 +114,82 @@
   .btn
     a
       color: $DarkColor
+
+@media screen and (max-width: 1440px)
+  .main
+    &__title
+      font-size: 3rem
+    .item
+      margin-top: -2rem
+    p
+      font-size: 1.2rem
+@media screen and (max-width: 1024px)
+  .main
+    &__title
+      font-size: 2.2rem
+    .item
+      margin-top: -2rem
+    p
+      font-size: 1rem
+  .posts
+    padding: 10% 10%
+  .works
+    padding: 10% 10%
+  .skills
+    padding: 10% 10%
+  .notes
+    padding: 10% 10%
+@media screen and (max-width: 768px)
+  .main
+    &__title
+      font-size: 1.9rem
+    p
+      font-size: .8rem
+@media screen and (max-width: 425px)
+  .section-title
+    font-size: 1.5rem
+  .main
+    .item
+      grid-column: 1 / 13
+
+  .posts
+    padding: 10% 10%
+    .section-title
+      font-size: 1.5rem
+    p
+      font-size: .8rem
+  .works
+    padding: 10% 10%
+    p
+      font-size: .8rem
+    .project-card
+      &:nth-of-type(1)
+        grid-column: 1 / 13
+      &:nth-of-type(2)
+        grid-column: 1/ 13
+  .skills
+    padding: 10% 10%
+    p
+      font-size: .8rem
+    &__image
+      height: 150px
+      margin: 2rem 0
+  .notes
+    padding: 10% 10%
+    a
+      &:nth-of-type(1)
+        grid-column: 1 / 13 !important
+      &:nth-of-type(2)
+        grid-column: 1/ 13 !important
+    p
+      font-size: .8rem
+
+@media screen and (max-width: 375px)
+  .posts
+    padding: 10% 2%
+  .works
+    padding: 10% 2%
+  .skills
+    padding: 10% 2%
+  .notes
+    padding: 10% 2%
