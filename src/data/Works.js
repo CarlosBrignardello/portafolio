@@ -2,10 +2,10 @@ export const works = [
   {
     title: 'Portafolio',
     techs: ['React', 'Sass'],
-    url: 'https://carlosbrignardello.github.io/jquery-wsp/',
+    url: 'https://carlosbrignardello.github.io/portafolio',
     repo: 'https://github.com/CarlosBrignardello/portafolio',
     description: '',
-    img: 'https://raw.githubusercontent.com/CarlosBrignardello/react-gif-api/master/src/images/screen.png'
+    img: 'https://raw.githubusercontent.com/CarlosBrignardello/portafolio/master/src/assets/image/screen.png'
   },
   {
     title: 'React Giph API',
