@@ -1,0 +1,24 @@
+@import '../global'
+
+.post-card
+  display: flex
+  background-color: #ff5858
+  box-shadow: $shadow
+  text-decoration: none
+  &__image
+    background-image: url('../../assets/images/main.jpg')
+    background-position: center
+    background-size: cover
+    height: 300px
+    width: 60%
+  &__content
+    padding: 0 2rem
+    width: 40%
+    align-self: center
+    max-height: 300px
+    h3
+      color: $lightColor
+    p
+      color: $lightColor
+    span
+      color: $DarkColor

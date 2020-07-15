@@ -1,0 +1,26 @@
+@import '../global'
+
+.project-card
+  background-color: $primaryColor
+  border-radius: 10px
+  &__content
+    display: flex
+    justify-content: space-between
+    padding: 10px
+    &__title
+      color: $DarkColor
+    &__tech
+      span
+        border-width: 5px
+        border-left-style: solid 
+        border-left-color: $DarkColor
+        padding: 0 5px
+        font-size: .8rem
+        font-weight: bold
+        color: $DarkColor
+  &__image
+    background-image: url('../../assets/images/main.jpg')
+    height: 300px
+    background-size: cover
+    background-position: center top
+    background-repeat: no-repeat

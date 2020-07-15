@@ -1,0 +1,40 @@
+@import '../global'
+
+.contact
+  padding: 2% 20%
+  background-color: #f8f8f8
+  .section-title
+    margin-bottom: 1rem
+  .contact-container
+    background-color: white
+    margin: 2rem 0
+    padding: 1rem
+    justify-content: space-between
+    box-shadow: $shadow
+    &__image
+      height: 300px
+      background-image: url('../../assets/images/yo.png')
+      background-position: center
+      background-size: 100%
+      width: 50%
+    &__buttons
+      display: flex
+      flex-direction: column
+      align-self: center
+      margin: 0 auto
+    .btn
+      justify-content: center
+      border-radius: 15px
+      box-shadow: $shadow
+      a
+        padding: .8rem
+    .buttons__image
+      height: 100px
+      width: 100px
+      margin: 0 auto
+      margin-bottom: 1rem
+  .links
+    display: flex
+  .item
+    grid-column: span 6
+    justify-self: center
