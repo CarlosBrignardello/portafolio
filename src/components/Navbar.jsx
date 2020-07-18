@@ -12,19 +12,19 @@ export const Navbar = () => {
             <Link to="/portafolio/">Inicio</Link>
           </li>
           <li>
-            <Link to="/portafolio/posts">Posts</Link>
+            <NavLink to="/portafolio/posts">Posts</NavLink>
           </li>
           <li>
-            <Link to="/portafolio/works">Trabajos</Link>
+            <NavLink to="/portafolio/works">Trabajos</NavLink>
           </li>
           <li>
-          <Link to="/portafolio/skills">Skills</Link>
+          <NavLink to="/portafolio/skills">Skills</NavLink>
           </li>
           <li>
-          <Link to="/portafolio/notes">Apuntes</Link>
+          <NavLink to="/portafolio/notes">Apuntes</NavLink>
           </li>
           <li>
-          <Link to="/portafolio/contact">Contacto</Link>
+          <NavLink to="/portafolio/contact">Contacto</NavLink>
           </li>
         </ul>
       </nav>

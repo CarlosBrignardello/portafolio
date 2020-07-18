@@ -25,8 +25,8 @@ function App() {
       <section className="posts section">
         <h2 className="section-title">últimas publicaciones</h2>
         <p>En esta sección encontraras el último contenido que he ido publicando acerca de tecnología y sobre temas de mi interés.</p>
-        <PostCard context={posts[0].contextData} title={posts[0].titleData} description={posts[0].descriptionData} date={posts[0].dateData} image={posts[0].image}/>
-        <PostCard context={posts[1].contextData} title={posts[1].titleData} description={posts[1].descriptionData} date={posts[1].dateData} image={posts[1].image}/>
+        <PostCard context={posts[0].contextData} title={posts[0].titleData} description={posts[0].descriptionData} date={posts[0].dateData} image={posts[0].image} route="/portafolio/posts"/>
+        <PostCard context={posts[1].contextData} title={posts[1].titleData} description={posts[1].descriptionData} date={posts[1].dateData} image={posts[1].image} route="/portafolio/posts"/>
         <div className="btn">
           <Link to="/portafolio/posts">ir a publicaciones</Link>
         </div>
@@ -36,8 +36,12 @@ function App() {
         <h2 className="section-title">Trabajos</h2>
         <p>En esta sección puedes ver todos los proyectos en los que he trabajado. Dentro encontraras enlaces al repositorio y al sitio donde esta publicado cada proyecto.</p>
         <div className="grid">
-          <ProjectCard title={works[0].title} techs={works[0].techs} image={works[0].img}/>
-          <ProjectCard title={works[1].title} techs={works[1].techs} image={works[1].img}/>
+          <Link className="Link" to="/portafolio/works">
+            <ProjectCard title={works[0].title} techs={works[0].techs} image={works[0].img}/>
+          </Link>
+          <Link className="Link" to="/portafolio/works">
+            <ProjectCard title={works[1].title} techs={works[1].techs} image={works[1].img}/>
+          </Link>
         </div>
         <div className="btn">
           <Link to="/portafolio/works">ir a trabajos</Link>
@@ -47,7 +51,9 @@ function App() {
       <section className="skills section">
         <h2 className="section-title">Skills</h2>
         <p>Si eres un reclutador y estas interesado en mi perfil puedes ver las skills relacionadas que poseo.</p>
-        <div className="skills__image"></div>
+        <Link to="/portafolio/skills">
+          <div className="skills__image"></div>
+        </Link>
         <div className="btn">
           <Link to="/portafolio/skills">ir a skills</Link>
         </div>
@@ -57,8 +63,13 @@ function App() {
         <h2 className="section-title">Apuntes</h2>
         <p>Uno de mis intereses más grandes es estudiar y aprender nuevas tecnologías. Es por eso que documento mi proceso de aprendizaje en cada nueva herramienta que aprendo. Además, está disponible para lo comunidad, por lo que siempre puede serle útil a alguien.</p>
         <div className="grid">
-          <Card title={notes[0].title} type="Notes" description={notes[0].description} image={notes[0].img}/>
-          <Card title={notes[1].title} type="Notes" description={notes[1].description} image={notes[1].img}/>
+          <Link className="Link" to="/portafolio/notes">
+            <Card title={notes[0].title} type="Notes" description={notes[0].description} image={notes[0].img}/>
+
+          </Link>
+          <Link className="Link" to="/portafolio/notes">
+            <Card title={notes[1].title} type="Notes" description={notes[1].description} image={notes[1].img}/>
+          </Link>
         </div>
         <div className="btn">
           <Link to="/portafolio/notes">ir a apuntes</Link>
